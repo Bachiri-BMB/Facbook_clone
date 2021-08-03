@@ -54,9 +54,6 @@ body{
     padding: 27px;
   color: gray;
 }
-.header_option:hover  span{
-  color: blue;
-}
 
 .inpute{
   display:flex;
