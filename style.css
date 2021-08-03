@@ -1,0 +1,297 @@
+*{
+  margin:0;
+}
+body{
+  background-color: aliceblue;
+}
+.left_header img{
+  height: 53px;
+
+
+}
+.middle_header{
+  display: inline-flex;
+  flex: 1;
+  color: gray;
+
+}
+
+.Header{
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top:0;
+  background-color: white;
+  height:45px;
+  margin-bottom: 22px;
+
+}
+.profile{
+  height: 53px;
+  border-radius: 50%;
+}
+.profile:hover{
+  transform: scale(1.2);
+}
+.left_header{
+  display: flex;
+  padding-top: 0px;
+}
+
+
+
+
+
+.right_header{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.header_option span{
+  font-size: 31px;
+  margin: -17px;
+    padding: 27px;
+  color: gray;
+}
+.header_option:hover  span{
+  color: blue;
+}
+
+.inpute{
+  display:flex;
+  align-items: center;
+  border-radius: 999px;
+  background-color: antiquewhite;
+  height: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+
+}
+.inpute input{
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+}
+.header_prof{
+  display: flex;
+  padding-right: 46px;
+}
+.right_header h4{
+
+  justify-content: space-around;
+  padding-top: 17px;
+  padding-left: 14px;
+}
+.right_icon{
+  justify-content: space-between;
+  padding: 17px;
+  
+  
+}
+.right_icon span{
+  padding-right: 11px;
+  color: gray;
+}
+
+.header_option:hover span {
+  color:blue;
+}
+.header_option.active .material-icons{
+  color: blue;
+}
+
+/*navbar_left*/
+.navbar{
+  margin: -11px;
+}
+.navbar_info{
+  display: flex;
+  padding: 16px;
+  margin: 4px;
+}
+.navbar_info .material-icons{
+  font-size: 31px;
+  color:#1313ca;
+  padding-right: 26px;
+
+}
+.navbar_info h4{
+  padding-top: 7px;
+}
+.nav_pic {
+  display: flex;
+}
+.nav_pic h4{
+  margin: 13px;
+}
+.navbar_info:hover{
+  background-color: rgb(170, 200, 226);
+  
+}
+
+/*Story*/
+.story{
+  position: relative;
+  left: 30;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 174px;
+  height: 182px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.story:hover{
+  transform: scale(1.07);
+}
+#Story_ava{
+  height: 45px;
+  border: 2px solid blue;
+}
+
+.story h4{
+    padding-top: 111px;
+    color: aliceblue;
+    font-family: emoji;
+    font-size: 17px;
+    text-align:justify;
+}
+.middle_nav{
+  display: flex;
+  justify-content: center;
+  margin-left: 58px;
+
+}
+/*main of all */
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+#Tp{
+  height: 55px;
+}
+.top_side{
+  display: flex;
+  padding: 64px;
+  padding-top: 15px;
+  margin-left: 24px;
+  margin-top: 16px;
+  padding-bottom: 56px;
+}
+
+.Avatar{
+  padding-left: 22px;
+}
+#Inpute{
+  padding-right: 303px;
+}
+.bottom_side{
+  display: flex;
+  justify-content: space-between;
+  margin: -26px;
+}
+.Icon{
+  display: flex;
+  padding-right: 108px;
+    padding-left: 73px;
+    font-size: 16px;
+}
+.Icon .material-icons{
+  font-size: 34px;
+  padding-right: 0px;
+
+  color: green;
+
+}
+.Icon h4{
+  padding-top:8px ;
+}
+.add_picture{
+  width: 66%;
+  margin-left: 173px;
+
+}
+.picture{
+  margin-top: 76px;
+    margin-right: 203px;
+    margin-left: 262px;
+    WIDTH: 53%;
+    border: 1px sienna #6d4b4b;
+}
+.Moh{
+  border-bottom: 1px solid;
+  padding-top: 1px;
+  height: 50%;
+  width: 90%;
+  margin: 26px;
+
+}
+.ava ,.CMNTR{
+  display: flex;
+}
+.ava h4 {
+  padding:23px 19px ;
+}
+.cmntr{
+  display: flex;
+  justify-content: space-around;
+  padding: 22px;
+}
+
+.CMNTR:hover .material-icons{
+  transform: scale(1.7);
+}
+.widjet{
+  margin: 22px;
+}
+/*Responsive design*/
+
+@media only screen and (max-width: 1061px){
+  .top_side input{
+    padding-left: 0px;
+    margin: 8px;
+  }
+  
+
+}
+@media only screen and (max-width: 1138px){
+  .top_side{
+    padding-left: 22px;
+
+  }
+  #Inpute {
+    padding-right: 163px;
+
+  }
+  .Icon{
+    padding-right: 51px;
+  }
+  .header_option{
+    display: none;
+  }
+  .Header{
+    background-color: transparent;
+
+  }
+  .left_header{
+    padding-right: 110px;
+  }
+  .right_header{
+    display: none;
+  }
+}
+@media only screen and (max-width: 254px){
+  .navbar{
+    display: none;
+  }
+}
+@media  (max-width: 175px){
+  .middle_nav{
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+
+}
