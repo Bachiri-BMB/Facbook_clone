@@ -281,6 +281,9 @@ body{
   .right_header{
     display: none;
   }
+  .navbar{
+    display: none;
+  }
 }
 @media only screen and (max-width: 254px){
   .navbar{
